@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV Mahmoud Mohamed</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <button onclick="toggleDarkMode()">Changer le mode</button>
+
+  <div class="container">
+    <div class="left">
+      <img src="cvmm.jpeg" alt="photo" class="photo">
+      <h2>Mahmoud Mohamed</h2>
+      <p><strong>Téléphone :</strong> +212 6 11 30 09 33</p>
+      <p><strong>Email :</strong> mahmoudmohamed20042024@email.com</p>
+    </div>
+    
+    <div class="right">
+      <h1>Curriculum Vitae</h1>
+
+      <h2>Compétences</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript, PHP, SQL</li>
+        <li>C, JAVA POO</li>
+      </ul>
+
+      <h2>Langues</h2>
+      <ul>
+        <li>Français : moyen</li>
+        <li>Anglais : courant</li>
+        <li>Arabe : courant</li>
+      </ul>
+
+      <h2>Diplômes</h2>
+      <ul>
+        <li>Bac - Lycée Salah-Edine El Ayoubi (2022)</li>
+        <li>DEUG en SMI - FPO (2024)</li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark");
+    }
+  </script>
+</body>
+</html>
